@@ -224,10 +224,48 @@ nav>ul>li {
 .token>img {
     width: 20%;
 }
-.token-title{
+
+.token-title {
     color: #424242;
     font-weight: 600;
 }
-.token-description{
+
+.token-description {
     margin-top: 0;
+}
+
+/* sponspors section */
+
+.sponspors {
+    margin: 60px auto 0;
+    width: 72%;
+    text-align: center;
+}
+
+.sponspors-image {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.sponspors-image>img {
+    width: 10%;
+    margin-top: 10px;
+}
+
+/* footer section */
+
+footer {
+    width: 72%;
+    margin: 80px auto 100px;
+    background-color: #FFF4E7;
+    border-radius: 8px;
+    border: none;
+    padding: 20px 0;
+}
+
+footer>p {
+    color: #424242;
+    text-align: center;
+    font-size: .8rem;
+    font-weight: 400;
 }
