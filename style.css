@@ -1,0 +1,77 @@
+* {
+    margin: 0;
+    font-family: 'EB Garamond', serif;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body {
+    max-width: 1350px;
+    margin: 0 auto;
+}
+
+/* comon style */
+
+.discription {
+    font-size: .8rem;
+    color: #727272;
+    font-weight: 400;
+    margin: 18px 0;
+}
+
+.btn {
+    width: 150px;
+    height: 54px;
+    background: #FF900E;
+    border-radius: 8px;
+    border: none;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+}
+
+/* header section */
+header {
+    width: 100%;
+    background: rgba(255, 144, 14, 0.10);
+    padding: 30px 10px;
+}
+
+nav {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+}
+
+nav>ul {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+}
+
+nav>ul>li {
+    list-style: none;
+}
+
+.header-title-div {
+    margin: 70px auto 0;
+    text-align: center;
+    width: 862px;
+}
+
+.header-title {
+    font-size: 3rem;
+    font-weight: 700;
+    color: #131313;
+}
+
+.banner {
+    display: flex;
+    justify-content: center;
+    margin: 45px 0 15px;
+}
+
+.banner img {
+    width: 70%;
+}
