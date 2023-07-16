@@ -75,3 +75,52 @@ nav>ul>li {
 .banner img {
     width: 70%;
 }
+
+/* group photo section */
+
+.architects-group-photo {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 50px;
+    /* border: 2px solid red; */
+    gap: 50px;
+
+}
+.group-img{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    /* border: 2px solid purple; */
+}
+.group-img img{
+    width: 250px;
+    height:260px;
+}
+.group-discation{
+    /* border: 2px solid purple; */
+}
+.quic-list{
+    color: #727272;
+    font-size: 45px;
+    font-weight: 500;
+}
+.of-our{
+    color: #131313;
+    font-size: 45px;
+    font-weight: 700;
+}
+.features-font{
+    color: #FF900E;
+    font-size: 45px;
+    font-weight: 700;
+}
+
+/* features section */
+
+.features{
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+    border: 2px solid red;
+}
